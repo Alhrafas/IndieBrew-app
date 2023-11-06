@@ -199,3 +199,90 @@ ul a {
     font-size: 2rem;
     margin-bottom: 10%;
 }
+.estimate,
+.delivery,
+.limited {
+    display: flex;
+    margin-bottom: 6%;
+    gap: 10px;
+}
+.estimate p,
+.delivery p,
+.limited p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.estimate span,
+.delivery span,
+.limited span {
+    /* font-size: 1.2rem; */
+    font-weight: bold;
+}
+.estimate i {
+    color: red;
+}
+.delivery i {
+    color: darkgrey;
+}
+.limited i {
+    color: orange;
+}
+.sign__form {
+    /* border: 1px solid red; */
+    background-color: white;
+    padding: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+.form-head h1 {
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+label {
+    display: block;
+    margin: 0.2em 0;
+    font-weight: bold;
+}
+.email input,
+.fullname input,
+.password__main input {
+    padding: 0.8em;
+    width: 100%;
+    margin-bottom: 8%;
+    border-radius: 5px;
+    border: 1px solid darkgray;    
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+}
+.check__main {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5%;
+}
+.check {
+    margin-bottom: 17%;
+} 
+.check__main label {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    /* margin-top: 2%; */
+}
+.check__main label a {
+    color: rgb(119, 119, 253);
+    margin-top: 2%;
+}
+.create {
+    border: 1px solid red;
+    width: 100%;
+    padding: 0.8em;
+    background-color: rgb(119, 119, 253);
+    border: 1px solid rgb(119, 119, 253);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.create:hover {
+    background-color: aliceblue;
+}
