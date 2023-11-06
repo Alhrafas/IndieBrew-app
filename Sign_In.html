@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header class="form__head">
+        <div>
+            <img src="./Assets/Logo.svg" alt="logo">
+            <!-- <p>IndieBrew</p> -->
+        </div>
+        <a href="index.html"><img src="./Assets/Back Arrow.svg" alt="arrow"></a>
+    </header>
+    <div class="form__main">
+        <div class="form__text">
+            <h1>Create your personalized feed.</h1>
+            <div class="estimate">
+                <i class='bx bxs-balloon'></i>
+                <p><span>Over 20 resources.</span> With resources ranging from Reddit to IndieHackers, we've got all your needs covered.</p>
+            </div>
+            <div class="delivery">
+                <i class='bx bx-money-withdraw' ></i>
+                <p><span>Delivery weekly.</span> Every week at exactly Tuesday <span class="time">12:00 P.M EST</span> - expect a value-packed digest right in your email.</p>
+            </div>
+            <div>
+                <i class='bx bx-bulb' ></i>
+                <p><span>Unlimited ideas.</span> With all the ideas you'll be reading about, what's stopping you from creating a sustainable startup?</p>
+            </div>
+        </div>
+        <div class="sign__form">
+            <div class="form-head">
+                <h1>Create your IndieBrew Account</h1>
+            </div>
+            <form action="/">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="John@example.com" required>
+                </div>
+                <div>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="John Doe" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="At least 8 characters" required>
+                </div>
+                <div>
+                    <label for="agreeToTerms">By creating an account on IndieBrew, you agree to the <a href="">Terms and conditions.</a></label>
+                    <input type="checkbox" id="agreeToTerms" name="agreeToTerms" required>
+                </div>
+                <!-- <button type="submit" value="Create an Account"></button> -->
+                <input type="submit" value="Create an Account">
+            </form>
+        </form>
+    </div>
+</body>
+</html>
