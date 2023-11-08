@@ -408,11 +408,9 @@ label {
         /* align-items: center; */
         padding: 2em;
         gap: 20%;
-        /* justify-content: space-between; */
     }
     .about__indie {
         width: 100%;
-        /* border: 1px solid #00f; */
         margin-top: 8%;
     }
     .about__indie h3 {
@@ -426,5 +424,29 @@ label {
         align-items: center;
         padding: 4em;
         gap: 20px;
+    }
+    .form__text {
+        /* border: 1px solid red; */
+    }
+    .form__text h1 {
+        font-size: 1.5rem;
+    }
+    .form__text p {
+        font-size: 0.6rem;
+    }
+    .sign__form {
+        border: 1px solid gold;
+    }
+    .sign__form {
+        width: 70%;
+    }
+    .sign__form h1 {
+        font-size: 0.8rem;
+    }
+    .check__main {
+        margin-bottom: 0;
+    }
+    .check__main label {
+        font-size: 0.5rem;
     }
 }
