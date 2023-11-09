@@ -295,11 +295,14 @@ label {
 }
 
 /* tablet design start here */
-@media (min-width: 640px) and (max-width: 768px) {
+@media (min-width: 768px) {
     header {
         width: 100%;
         padding: 2em;
         align-items: center;
+    }
+    .form_body {
+        background-color: rgb(236, 206, 236);
     }
     .navbar, .btn {
         display: block;
@@ -349,6 +352,12 @@ label {
     .hero__main {
         padding: 2em;
     }
+    .form__head img {
+        width: 80%;
+    }
+    .form__head a img {
+        width: 10%;
+    }
     .indie__title p {
         font-size: 1.3rem;
     }
@@ -362,12 +371,9 @@ label {
         padding: 2em;
     }
     .resoucers__main {
-
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
-        /* gap: 20px; */
-        /* justify-content: space-between; */
     }
     .resoucers__main h1 {
         font-size: 2rem;
@@ -419,34 +425,107 @@ label {
     .about__indie p {
         font-size: 0.8rem;
     }
+    .form__head {
+        background-color: rgb(243, 228, 228);
+    }
     .form__main {
         display: flex;
         align-items: center;
         padding: 4em;
         gap: 20px;
     }
-    .form__text {
-        /* border: 1px solid red; */
-    }
     .form__text h1 {
         font-size: 1.5rem;
     }
     .form__text p {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     .sign__form {
-        border: 1px solid gold;
-    }
-    .sign__form {
-        width: 70%;
+        width: 100%;
     }
     .sign__form h1 {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
     }
     .check__main {
         margin-bottom: 0;
     }
     .check__main label {
-        font-size: 0.5rem;
+        font-size: 0.65rem;
     }
+}
+
+@media (min-width: 1024px) {
+    body {
+        border: 1px solid gold;
+    }
+    header {
+        padding: 2em 5em;
+    }
+    .navbar {
+        /* border: 1px solid red; */
+        width: 20;
+    }
+    .navbar ul {
+        width: 50%;
+        margin-left: 50%;
+        /* border: 1px solid #000; */
+    }
+    .navbar ul li {
+        font-size: 1.1rem;
+    }
+    .firt__btn {
+        width: 20%;
+    }
+    .btn {
+        padding: 1em;
+        font-size: 1em;
+    }
+    .hero__main {
+        padding: 5em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* gap: 20px; */
+    }
+    .indie__feed {
+        /* border: 1px solid #00f; */
+        margin: 0;
+        padding: 0;
+        margin-top: 15%;
+    }
+    .indie__feed p {
+        font-size: 1.2rem;
+    }   
+    .s__btn {
+        padding: 1.5em;
+        width: 60%;
+    }
+    .users img {
+        width: 43%;
+    }
+    .hero__image {
+        /* border: 1px solid red; */
+    }
+    .hero__image img {
+        width: 100%;
+        margin: 0 auto;
+        margin-right: 20%;
+    }
+    .section__main {
+        padding: 5em    ;
+    }
+    .section__main p {
+        font-size: 1.1rem;
+    }
+    .access__text h1 {
+        font-size: 2.5rem;
+    }
+    .access__text p {
+        font-size: 1.2rem;
+    }
+    .section__main a {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+   
+
 }
