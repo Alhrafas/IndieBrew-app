@@ -4,12 +4,12 @@
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
 }
-header {
+.indie-header {
     display: flex;
     justify-content: space-between;
     padding: 2em 1em;
     background-color: rgb(252, 252, 252);
-    background: linear-gradient(70deg, rgb(243, 215, 243), rgb(252, 252, 252), rgb(252, 252, 252));
+    /* background: linear-gradient(70deg, rgb(243, 215, 243), rgb(252, 252, 252), rgb(252, 252, 252)); */
 }
 .navbar,
 .btn {
@@ -171,7 +171,8 @@ ul a {
 .form__head {
     align-items: center;
     display: flex;
-    background-color: aliceblue;
+    padding: 1em;
+    justify-content: space-between;
 }
 .form__head a {
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -187,6 +188,7 @@ ul a {
 }
 .form__head {
     background-color: rgb(248, 230, 248);
+    /* padding: 5rem; */
 }
 .form__head a img {
     width: 40%;
@@ -199,7 +201,6 @@ ul a {
 .form__main {
     padding: 1em;
     background-color: rgb(248, 230, 248);
-    background: linear-gradient(rgb(236, 206, 236));
     position: relative;
 }
 .form__text h1 {
